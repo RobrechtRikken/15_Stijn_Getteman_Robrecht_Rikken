@@ -23,7 +23,7 @@ public class MijnTimerTAsk extends TimerTask {
     
     public void run() {
        
-        System.out.println("tick...");
+        //System.out.println("tick...");
         xlet.callBack();
     }
 

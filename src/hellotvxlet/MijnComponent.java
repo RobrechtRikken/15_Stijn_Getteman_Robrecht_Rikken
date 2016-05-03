@@ -45,6 +45,7 @@ public class MijnComponent extends HComponent {
     mt.addImage(schipimg,0);
     mt.addImage(sterrenimg,0);
     mt.addImage(bulletimg, 0);
+    
         try {
             mt.waitForAll();
         } catch (InterruptedException ex) {
@@ -107,6 +108,16 @@ public class MijnComponent extends HComponent {
                 
             y2=0;
             }
+            
+        
+        }
+       
+        public void PlayerShoot()
+        {
+           //Schiet funcite om kogel te spawnen
+            this.repaint();
+            
+            
             
         
         }
